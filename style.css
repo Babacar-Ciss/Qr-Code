@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #D5E1EF;
+    font-family: "Outfit";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 497px;
+    background-color: #FFF;
+    margin: 100px 0 0 250px;
+    border-radius: 20px;
+}
+
+.Qr_code {
+    width: 288px;
+    height: 288px;
+    margin: 16px 16px 0 16px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    width: 288px;
+    height: 56px;
+    color: #1F314F;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.container p {
+    width: 256px;
+    height: 57px;
+    color: #7D889E;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 32px;
+    margin-top: 0px;
+}
