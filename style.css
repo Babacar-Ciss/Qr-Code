@@ -6,12 +6,15 @@ body {
 }
 
 .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     width: 320px;
     height: 497px;
     background-color: #FFF;
-    margin: 100px 0 0 250px;
     border-radius: 20px;
 }
 
